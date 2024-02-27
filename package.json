@@ -1,0 +1,16 @@
+{
+  "name": "nativews",
+  "version": "1.0.0",
+  "description": "",
+  "main": "justWsServer.js",
+  "scripts": {
+    "start": "nodemon justWsServer"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.1.0",
+    "ws": "^8.11.0"
+  }
+}

@@ -1,0 +1,13 @@
+<script>
+  const ws = new WebSocket("ws://localhost:3000");
+  console.log(ws);
+
+  ws.onopen = (event) => {
+    console.log(event);
+    ws.send("I'am sending a message to the server :) ");
+  };
+
+  ws.onmessage = (message) => {
+    console.log(message);
+  };
+</script>
